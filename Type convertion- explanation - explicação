@@ -1,0 +1,11 @@
+# temos conversão dos tipos dos types, chamado de coerção
+# type convertion, typecasting, coercion
+# é o ato de converter um tipo(type) no outro 
+# tipos imutáveis  e primitivos:
+#str, int, float, bool 
+print(1+1)  # está somando int + int
+print('a' + 'b')   # vai mostrar ab lado a lado 
+print('1', type('1'))
+print(int('1'), type(int('1')))
+print(float('1')+ 1) 
+print('1'+'1')
