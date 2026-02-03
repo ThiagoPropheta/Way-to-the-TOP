@@ -1,0 +1,16 @@
+# variáveis são usadas para salvar algo  na memória do computador
+#pep8 ( guia do python)  indice variáveis com letra minúscula , pode usar
+# número e underline _ 
+#o sinal  de = é operador  de atribuição  ele é usado para
+# atribuir um valor a um nome  ( variável)
+# uso :  nome_variavel = expressão
+
+nome_completo = 'Thiago Fortini Propheta'
+print(nome_completo)
+soma_dois_mais_dois = 2+2 
+print(soma_dois_mais_dois)
+
+nome =  'thiago'
+idade = 30
+maior_idade = idade>=18
+print("nome:", nome,"idade:", idade, maior_idade)
