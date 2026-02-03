@@ -1,0 +1,7 @@
+concatenacao = 'A'+ 'B'+ 'C'
+print(concatenacao)
+
+a_dez_vezes = ('A' + ' ') * 10  # ele colocou a letra A mais o o espaço, por dez vezes.
+tres_thiagos = 3 * 'Thiago '  # ele printou Thiago mais o espaço que deixei ao final do Thiago por três vezes.
+print(a_dez_vezes)
+print(tres_thiagos)
