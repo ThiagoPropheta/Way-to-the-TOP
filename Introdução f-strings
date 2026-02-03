@@ -1,0 +1,15 @@
+#cálculo de IMC  -- f-strings
+nome = 'Thiago'
+idade = 30
+altura = 1.66
+peso = 76
+
+imc = (peso / (altura * 2)) 
+
+linha1= f'{nome} você tem {altura:.2f} m e pesa {peso} kg logo seu IMC é: {imc:.2f} '
+# com o uso do f posso colocar variáveis dentro do texto, é chamado de f-strings para Formatar 
+# o comando : .2f eu coloquei que no número de altura eu tenha duas casas decimais mostrando. 
+# curiosidade: se eu tenho imc = ... esses três pontoschama place holder e ele não dá erro no código.
+# OBJETIVO É PRINTAR: Thiago você tem 1,60m de altura e pesa 76kg logo seu IMC é: 
+print(nome, 'você tem', altura,'m','e pesa',peso,'kg','logo seu IMC é:', {imc}) # primeira forma que eu tinha feito
+print(linha1)  # SEGUNDA forma utilizando f-strings
