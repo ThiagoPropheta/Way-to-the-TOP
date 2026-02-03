@@ -1,0 +1,12 @@
+"""
+Aprendendo sobre Docstring
+ISSO AQUI É CHAMADO DE DOCSTRING
+"""
+
+
+# Escrevendo um comentário
+print(123) # vai aparecer na tela
+# linha abaixo do print
+# nada que eu eu escreva nesta linha  após o simbolo '#'vai aparecer quando rodar o programa
+# logo é muito utilizado para fazer comentários
+print(321)
