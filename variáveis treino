@@ -1,0 +1,18 @@
+nome = 'Thiago'
+sobrenome = 'Fortini Propheta'
+idade =  30   # tive que colocar a variavel idade acima do ano nascimento pois estava abaixo e ele não puxou
+ano_nascimento = 2026 - idade 
+
+maior_de_idade = idade>=18
+altura =  1.66
+
+
+
+
+
+print('Nome:', nome)
+print('sobrenome:', sobrenome)
+print('idade:', idade)
+print('Ano de Nascimento:', ano_nascimento)
+print('É maior de idade:', maior_de_idade)
+print('Altura:', altura)
