@@ -1,0 +1,14 @@
+'''
+str - strings são textos dentro de aspas simples ou dupla 
+'''
+print('Thiago Propheta')
+print(1234)
+print('Thiago \'Propheta\'')
+
+# Posso querer que o caractere de escape apareça eu posso colocar r dentro do () print(r"\'ss\'")
+
+
+# posso usar um caractere de escape para por exemplo colocar " dentro do nome print("Thiago \"propheta")
+
+print('Thiago "Propheta"')
+print ('THIAGO',r"\'teste'")
