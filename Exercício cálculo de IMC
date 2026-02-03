@@ -1,0 +1,12 @@
+#cálculo de IMC pode preencher com seus dados
+nome = 'Thiago'
+idade = 30
+altura = 1.66
+peso = 76
+
+imc = (peso / (altura * 2)) 
+
+# OBJETIVO É PRINTAR: Thiago você tem 1,60m de altura e pesa 76kg logo seu IMC é: 
+print(nome, 'você tem', altura,'m','e pesa',peso,'kg','logo seu IMC é:', imc) 
+
+# curiosidade: se eu tenho imc = ... esses três pontos sechama place holder e ele não dá erro no código.
