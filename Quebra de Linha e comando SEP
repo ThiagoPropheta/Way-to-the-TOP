@@ -1,0 +1,3 @@
+#\r\n - isso é o CRLF que é  a quebra de linha 
+print(12,"oi", 34,'yo', sep='-----', end='\r\n')
+print(56,"bye", 99,'hey', sep="____", end='\n')
