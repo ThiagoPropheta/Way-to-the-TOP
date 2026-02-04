@@ -1,0 +1,11 @@
+a = 'AAA'
+b = 'BBBB'
+c = 1.1153
+# quando eu coloco ponto final após a variável eu tenho alguns métodos, um deles é o format
+formato ='a={0} b={1} c={2:.2f}'.format(a,b,c)
+# a letra a no indice ocupa o lugar 0 o b 1 e o c 2, logo eu posso colocar puxando o lugar no indice
+# assim posso colocar fora da ordem 
+# posso nomear parametros também exemplo .format(ATENILDO=a, Bruno=b, Claudio=c)
+# dai teria que altrar a string formato para 'a={ATENILDO} b={Bruno} c={Claudio:.2f}'.format(ATENILDO=a, Bruno=b, Claudio=c)
+# posso colocar apenas o Claudio em C se for o último, tudo o que tiver após um parametro nomeado deverá ser nomeado.
+print(formato)
