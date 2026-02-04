@@ -1,0 +1,13 @@
+# nome = input('Qual o seu nome? ')
+# print(f'O seu nome é {nome}')
+# print(f'O seu nome é {nome=}') se eu coloco esse igual vai sair O seu nome é nome= Thiago ( se eu preencher Thiago claro)
+numero_1 = input('Digite um número: ')
+numero_2 = input('Digite outro número: ')
+
+int_numero_1=int(numero_1)
+int_numero_2=int(numero_2)
+# Coloquei a conversão para int separado pois daria para checar antes de fazer a conta, checagem faremos mais para frente.
+# converter em int foi necessário pois as variáveis numero_1 e numero_2 são str, se eu náo convertesse ele iria concatenar as informações
+
+
+print(f'A soma dos número é: {numero_1+numero_2}')
