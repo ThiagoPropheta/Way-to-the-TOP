@@ -1,0 +1,30 @@
+# if  / elif      /else 
+# se/ se não se / se não 
+condicao1 = False
+condicao2 = True
+condicao3 = False
+condicao4 = False
+
+
+if condicao1:
+    print('Ecódigo para condição 1')
+
+elif condicao2:
+    print('código para condição 2')
+
+elif condicao3:
+    ...  
+    pass
+elif condicao4:
+    print('código para condição 4')
+
+else:
+    print('nenhuma condição foi satisfeita')
+
+if 10 == 10:
+    print('10 é 10')
+
+
+
+# Neste caso a condição 2 é verdadeira logo executou o elif condicao2
+# e depois disso foi para o if 10 == 10: como sabemos que realmente 10 é igual a 10 logo também printou 10 é 10
